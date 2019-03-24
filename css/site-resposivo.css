@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:670px) {
     .cabecalhoPrincipal {
         height: 40px;
     }
@@ -77,7 +77,11 @@
         width: 60%;
     }
 }
-
+@media (max-width:420px){
+    .conteudoSobre-tecnologias-tecnologia {
+        width: 75%;
+    }
+}
 @media screen and (max-width:350px) {
     html {
         font-size: 12px;
