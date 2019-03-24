@@ -61,11 +61,14 @@
     #menu-tgl:checked~.cabecalhoPrincipal-nav {
         transform: translateX(-9%);
     }
+    .projetos-repositorioGit-link {
+        padding: 10px 29px;
+    }
     .projetos .container {
         flex-flow: column wrap;
     }
     .projetoItem, .projetoItem:nth-child(1) {
-        width: 100%;
+        width: 96%;
     }
     .contato-messagem {
         padding: 10px;
@@ -75,7 +78,7 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:350px) {
     html {
         font-size: 12px;
     }
@@ -83,7 +86,7 @@
         width: 120%;
     }
     .projetos-repositorioGit-link {
-        padding: 4px 29px;
+        padding: 10px 29px;
     }
     .carregamento {
         border: 11px solid rgb(7, 150, 175);
