@@ -1,0 +1,91 @@
+@media screen and (max-width:760px) {
+    .conteudoPrincipal-descricao {
+        font-size: 2em;
+    }
+    .conteudoSobre .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudoSobre-jheik, .conteudoSobre-tecnologias {
+        width: 90%;
+        margin: 5%;
+    }
+    .conteudoSobre-tecnologias-tecnologia {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cabecalhoPrincipal {
+        height: 40px;
+    }
+    .conteudoPrincipal-descricao {
+        font-size: 1.5em;
+    }
+    .cabecalhoPrincipal-nav {
+        flex-direction: column;
+    }
+    .cabecalhoPrincipal-nav-link {
+        margin: 5px;
+        padding: 15px 15px;
+        border-radius: 10px;
+        width: 194px;
+    }
+    #menu-tgl~.cabecalhoPrincipal-nav {
+        box-sizing: border-box;
+        position: fixed;
+        width: 300px;
+        height: 100%;
+        background: #101925;
+        font-family: Verdana;
+        padding-top: 20px;
+        padding-left: 36px;
+        transform: translateX(-108%);
+        transition: transform 0.7s ease;
+    }
+    #menu-tgl~.cabecalhoPrincipal-nav .menu-btn {
+        display: block;
+        position: absolute;
+        box-sizing: border-box;
+        right: -100px;
+        width: 131px;
+        font-size: 40px;
+        top: -9px;
+        font-family: Verdana;
+        cursor: pointer;
+        color: #fff;
+        padding: 10px 18px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    #menu-tgl:checked~.cabecalhoPrincipal-nav {
+        transform: translateX(-9%);
+    }
+    .projetos .container {
+        flex-flow: column wrap;
+    }
+    .projetoItem, .projetoItem:nth-child(1) {
+        width: 100%;
+    }
+    .contato-messagem {
+        padding: 10px;
+    }
+    .conteudoSobre-tecnologias-tecnologia {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 12px;
+    }
+    .conteudoSobre-tecnologias-tecnologia {
+        width: 120%;
+    }
+    .projetos-repositorioGit-link {
+        padding: 4px 29px;
+    }
+    .carregamento {
+        border: 11px solid rgb(7, 150, 175);
+    }
+}
